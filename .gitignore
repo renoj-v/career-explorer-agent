@@ -1,0 +1,24 @@
+# Personal data: never commit. Only the agent's setup is tracked.
+# Back these up separately if you want history (see README > Privacy).
+
+# Private journal entries
+journal/*
+!journal/.gitkeep
+
+# Reflections shared with the agent
+reflections/*
+!reflections/.gitkeep
+
+# Field dossiers
+dossiers/*
+!dossiers/.gitkeep
+
+# Living profile and ruled-out directions
+profile.md
+rejected.md
+
+# Local Claude Code overrides
+.claude/settings.local.json
+
+# OS / editor clutter
+.DS_Store

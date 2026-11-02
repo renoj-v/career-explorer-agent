@@ -21,5 +21,7 @@ A local, file-based career exploration agent that runs in Claude Code.
   stays private because you write it in your own editor and only share what you choose via `/reflect`.
 - `.gitignore` keeps all personal data out of Git: journal entries, reflections, dossiers, `profile.md`,
   and `rejected.md`. Only the agent's setup is tracked, so the repo is safe to push or share as a template.
+  Blank starting versions live in `profile.template.md` and `rejected.template.md`; the agent copies them
+  on first run.
 - Because those files aren't tracked, Git won't keep a history of them. Back them up separately
   (an encrypted drive or a private backup folder) if you want that history.
